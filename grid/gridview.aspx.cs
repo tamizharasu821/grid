@@ -19,7 +19,7 @@ namespace grid
         {
             if (!IsPostBack)
             {
-               
+             Response.Write("hello")  
                 griddata();
             }
         }
@@ -95,7 +95,8 @@ namespace grid
 
                 if (check.Checked == true)
                 {                  
-                    Response.Write(item.Cells[3].Text);                  
+                    Response.Write(item.Cells[3].Text); 
+                    Response.Write("hello");
                 }
             }
         }
