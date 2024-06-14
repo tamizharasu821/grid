@@ -35,6 +35,7 @@
             <SortedDescendingHeaderStyle BackColor="#6F8DAE" />
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:shipmentConnectionString3 %>" SelectCommand="SELECT * FROM [salary_details]"></asp:SqlDataSource>
+        <asp:Label ID="Label1" runat="server" Text="hello"></asp:Label>
     </form>
 </body>
 </html>
