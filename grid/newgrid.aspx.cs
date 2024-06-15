@@ -20,7 +20,7 @@ namespace grid
         {
             if (!IsPostBack)
             {
-                Response.Write("hi");
+                Response.Write("hi..");
                 griddata();
             }
         }
@@ -64,6 +64,8 @@ namespace grid
             for (int i = 0; i < GridView1.Rows.Count - 1; i++)
             {
                 Response.Write(GridView1.Rows[i].Cells[2].Text);
+                
+
             }
         }
     }
