@@ -20,6 +20,7 @@ namespace grid
         {
             if (!IsPostBack)
             {
+                Response.Write("hi");
                 griddata();
             }
         }
