@@ -19,7 +19,7 @@ namespace grid
         {
             if (!IsPostBack)
             {
-                Response.Write("hello");  
+               
                 griddata();
             }
         }
