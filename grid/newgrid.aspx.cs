@@ -64,7 +64,7 @@ namespace grid
             for (int i = 0; i < GridView1.Rows.Count - 1; i++)
             {
                 Response.Write(GridView1.Rows[i].Cells[2].Text);
-                
+                Response.Write("response accepted");
 
             }
         }
